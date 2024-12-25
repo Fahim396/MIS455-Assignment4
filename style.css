@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d67cb8;
+    color: #052529;
+  }
+  
+  .navbar-custom {
+    background-color: #05305e; 
+    padding: 1rem;
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .search-section {
+    background-color: #a011a0;
+  }
+  
+  .search-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-input {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 0.25rem;
+  }
+  
+  .search-button {
+    border-radius: 0.25rem;
+  }
+  
+  .results-section h2, .weather-section h2 {
+    font-size: 1.75rem;
+    color: #020e1b;
+  }
+  
+  #countryGrid, #weatherGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #f8f6f6;
+    padding: 1rem;
+    font-size: 0.875rem;
+  }
